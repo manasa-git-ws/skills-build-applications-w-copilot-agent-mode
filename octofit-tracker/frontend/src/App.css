@@ -1,0 +1,36 @@
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a.active {
+  color: #111827;
+  text-decoration: underline;
+}
+
+main section {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}

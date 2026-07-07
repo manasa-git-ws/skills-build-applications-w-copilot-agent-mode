@@ -15,7 +15,7 @@ const getApiBaseUrl = () => {
     return `https://${process.env.CODESPACE_NAME}-8000.app.github.dev`;
   }
 
-  return `http://127.0.0.1:${port}`;
+  return process.env.API_BASE_URL || `http://localhost:${port}`;
 };
 
 app.use(cors());
